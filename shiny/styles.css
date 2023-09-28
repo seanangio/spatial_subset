@@ -1,0 +1,55 @@
+input[type="number"] {
+    max-width: 80%;
+}
+
+div.outer {
+    position: fixed;
+    top: 41px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select { 
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+h1, h2, h3, h4 { 
+    font-weight: 400; 
+}
+
+#controls {
+/* Appearance */
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    cursor: move;
+}
+
+/* Position and style citation */
+#cite {
+    position: absolute;
+    bottom: 0px;
+    right: 145px;
+    font-size: 12px;
+}
+
+/* If not using map tiles, show a white background */
+.leaflet-container {
+    background-color: white !important;
+    cursor: crosshair !important;
+}
+
+/* Change cursor when mousing over clickable layer */
+.leaflet-clickable {
+  cursor: crosshair !important;
+}
+
+/* Fixes leaflet legend NA coming in second column */
+div.info.legend.leaflet-control br {
+    clear: both;
+}
+

@@ -1,0 +1,12 @@
+name: spatial-subset
+title: spatial-subset
+username:
+account: seanangio
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 657038
+bundleId: 1826460
+url: https://seanangio.shinyapps.io/spatial-subset/
+when: 1548062625.71785
+asMultiple: FALSE
+asStatic: FALSE
